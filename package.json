@@ -1,0 +1,10 @@
+{
+    "name": "pulumi-k8s-runner",
+    "devDependencies": {
+        "@types/node": "latest"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "latest",
+        "@pulumi/kubernetes": "latest"
+    }
+}

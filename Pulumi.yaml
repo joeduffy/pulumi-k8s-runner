@@ -1,0 +1,11 @@
+name: pulumi-k8s-runner
+runtime: nodejs
+description: A Pulumi program to deploy dusty deck Kubernetes YAML
+template:
+    config:
+        path:
+            description: A relative path to the Kubernetes YAML files to deploy.
+            default: "."
+        glob:
+            description: A glob pattern for the Kubernetes YAML files to deploy.
+            default: "*.yaml"
